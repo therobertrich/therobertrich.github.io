@@ -1,5 +1,6 @@
 /*Global */
-*:focus {
+a:hover,
+a:focus{
     outline: 2px solid #FF5D00;
 }
 .allcontent{
