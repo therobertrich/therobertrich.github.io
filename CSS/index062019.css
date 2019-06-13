@@ -56,64 +56,6 @@ header #logo h1{
 header nav{
 	float: right;
 }
-/*Top Nav
- nav ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #494747;
-	font-family: "Verdana", sans-serif;;
-}
-nav li{
-	float: left;
-}
-nav li a{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 40px 16px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-#email a:hover,
-#email a:focus
-{
-	background-color: #FF5D00;
-	color: black;
-	font-style: italic;
-}
-#twitter a:hover,
-#twitter a:focus{
-	background-color: #1AB2E8;
-	color: black;
-	font-style: italic;
-}
-#facebook a:hover,
-#facebook a:focus{
-	background-color: #486AA4;
-	color: white;
-	font-style: italic;
-}
-#linkedin a:hover,
-#linkedin a:focus{
-	background-color: #0271AE;
-	color: white;
-	font-style: italic;
-}
-#snapchat a:hover,
-#snapchat a:focus{
-	background-color: #F8F800;
-	color: black;
-	font-style: italic;
-}
-#instagram a:hover,
-#instagram a:focus{
-	background-color: #CB3172;
-	color: white;
-	font-style: italic;
-}
-End Top Nav*/
 /*End Header*/
 /*Icon Bar*/
 .icon-bar{
@@ -169,4 +111,8 @@ End Top Nav*/
 .fa-github{
 	background-color: #24292E;
 	color: white;
+}
+.fa-stack-overflow{
+	background-color: #F48024;
+	color: black;
 }
