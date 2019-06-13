@@ -82,6 +82,7 @@ header nav{
 	text-align: center;
 	text-decoration: none;
 }
+/*Favicons*/
 .fa-google{
 	background-color: #dd4b39;
 	color: white;
@@ -115,3 +116,15 @@ header nav{
 	background-color: #F48024;
 	color: black;
 }
+/*End Favicons*/
+/*End Icon Bar*/
+
+/*Footer*/
+footer{
+	background: #494747;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: #FF5D00 2px solid;
+}
+/*End Footer*/
