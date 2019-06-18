@@ -3,7 +3,7 @@ a:hover,
 a:focus{
     outline: 2px solid #FF5D00;
 }
-.allcontent{
+.container{
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
@@ -82,7 +82,7 @@ header nav{
 	text-align: center;
 	text-decoration: none;
 }
-/*Favicons*/
+/*Social Icons*/
 .fa-google{
 	background-color: #dd4b39;
 	color: white;
@@ -116,7 +116,7 @@ header nav{
 	background-color: #F48024;
 	color: black;
 }
-/*End Favicons*/
+/*End Social Icons*/
 /*End Icon Bar*/
 
 /*Footer*/
