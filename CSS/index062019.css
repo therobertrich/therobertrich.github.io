@@ -4,7 +4,7 @@ a:focus{
     outline: 2px solid #FF5D00;
 }
 .container{
-	width: 80%;
+	width: 60%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -128,3 +128,8 @@ footer{
 	border-top: #FF5D00 2px solid;
 }
 /*End Footer*/
+/*Resume*/
+#resume{
+	text-align: center;
+}
+/*End Resume*/
