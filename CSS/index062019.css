@@ -56,6 +56,16 @@ header #logo h1{
 header nav{
 	float: right;
 }
+/*Nav*/
+nav ul{
+	list-style-type: none;
+	overflow: hidden;
+	border: 2px solid #000000;
+}
+nav li a{
+	display: block;
+}
+/*End Nav*/
 /*End Header*/
 /*Icon Bar*/
 .icon-bar{
