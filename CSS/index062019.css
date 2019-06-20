@@ -61,9 +61,13 @@ nav ul{
 	list-style-type: none;
 	overflow: hidden;
 	border: 2px solid #000000;
+	margin: 0px 10px 10px 10px;
 }
 nav li a{
 	display: block;
+	text-align: left;
+	padding: 14px 16px;
+	float: left;
 }
 /*End Nav*/
 /*End Header*/
