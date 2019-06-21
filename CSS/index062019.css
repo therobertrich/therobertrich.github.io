@@ -1,8 +1,4 @@
 /*Global */
-a:hover,
-a:focus{
-    outline: 2px solid #FF5D00;
-}
 .container{
 	width: 60%;
 	margin: auto;
