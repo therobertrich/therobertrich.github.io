@@ -12,15 +12,13 @@ a:focus{
 /*Skip Link*/
 .mainSkipLink{
     position: absolute;
-    left: -99999px;
+    left: -100%;
 	overflow: hidden;
 }
 a.mainSkipLink:focus,
-a.mainSkipLink:active,
-a.mainSkipLink:hover{
+a.mainSkipLink:active{
 	position: absolute;
 	left: 0;
-    top: 0;
 	width: auto;
 	height: auto;
 	background: #494747;
