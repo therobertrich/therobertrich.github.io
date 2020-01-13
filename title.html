@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Default Title
+        </title>
+        <script>
+            jQuery(document).ready(function( $ ){
+              // Get page title
+                  var pageTitle = $("title").text();
+              
+              // Change page title on blur
+              $(window).blur(function() {
+                  $("title").text("DIFFERENT TITLE");
+                });
+            
+                // Change page title back on focus
+                $(window).focus(function() {
+                  $("title").text(pageTitle);
+                });
+            });
+            </script>
+    </head>
+    <body>
+        <h1>Test</h1>
+    </body>
+</html>
