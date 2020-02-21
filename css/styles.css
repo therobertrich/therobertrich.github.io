@@ -55,7 +55,8 @@ ul.socialList li {
 }
 
 /* social icon colors */
-.fa:focus {
+.fa:focus,
+.fa:hover {
   background: #000000;
   color: white;
 }
