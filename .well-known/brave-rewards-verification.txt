@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: therobertrich.com
-Token: 9408c8a9107d41c59d9a8a67b38f98207246e479bb77dfcd99c5b57b323ac4ab
+Token: ba8a4b8fd8dc453284bd44bd9a10539f93db4910fdf0040a272e036a1f297f9d
