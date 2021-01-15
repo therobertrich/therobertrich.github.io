@@ -4,6 +4,8 @@
 <title>Autocomplete Test</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="http://therobertrich.com" >
+<meta http-equiv="cache-control" content="no-cache">
 </head>
 <body>
 <h1>Autocomplete test</h1>
@@ -11,9 +13,19 @@
 <p>Note: This form does not actually submit to anything</p>
 
 <form>
-    <label for='fname'>First Name: </label>
-    <input type="text" id='fname' autocomplete="given-name">
-    
+    <label for='title'>Title: (required)</label>
+    <input type="text" id='title' autocomplete="honorific-prefix" required>
+    <label for='fname'>First Name: (required)</label>
+    <input type="text" id='fname' autocomplete="given-name" required>
+    <label for='lname'>Last Name: (required)</label>
+    <label for='mname'>Middle Name: </label>
+    <input type="text" id='mname' autocomplete="additional-name" >
+    <input type="text" id='lname' autocomplete="family-name" required>
+    <label for='suffix'>Suffix: </label>
+    <input type="text" id='suffix' autocomplete="honorific-suffix" >
+
+    <!--<label for=''></label>-->
+    <!--<input type="text" id='' autocomplete="" >-->
 </form>
 </body>
 </html>
