@@ -13,16 +13,29 @@
 <p>Note: This form does not actually submit to anything</p>
 
 <form>
-    <label for='title'>Title: (required)</label>
-    <input type="text" id='title' autocomplete="honorific-prefix" required>
-    <label for='fname'>First Name: (required)</label>
-    <input type="text" id='fname' autocomplete="given-name" required>
-    <label for='lname'>Last Name: (required)</label>
-    <label for='mname'>Middle Name: </label>
-    <input type="text" id='mname' autocomplete="additional-name" >
-    <input type="text" id='lname' autocomplete="family-name" required>
-    <label for='suffix'>Suffix: </label>
-    <input type="text" id='suffix' autocomplete="honorific-suffix" >
+    <fieldset>
+        <legend>Personal Information: </legend>
+        <label for='title'>Title: (required)</label>
+        <input type="text" id='title' autocomplete="honorific-prefix" required><br>
+        <label for='fname'>First Name: (required)</label>
+        <input type="text" id='fname' autocomplete="given-name" required><br>
+        <label for='mname'>Middle Name: </label>
+        <input type="text" id='mname' autocomplete="additional-name" ><br>
+        <label for='lname'>Last Name: (required)</label>
+        <input type="text" id='lname' autocomplete="family-name" required><br>
+        <label for='suffix'>Suffix: </label>
+        <input type="text" id='suffix' autocomplete="honorific-suffix" ><br>
+        <label for="nick">Nickname: </label>
+        <input type="text" id='nick' autocomplete="nickname" ><br>
+        <label for='bday'>Birthday: (Required)</label>
+        <input type="date" id='bday' autocomplete="bday" required><br>
+    </fieldset>
+    <fieldset>
+        <legend>Account Information: </legend> 
+        <label for="username">Username: (required)</label>
+        <input type="text" id="Username" autocomplete="username" required><br>
+    </fieldset>
+
 
     <!--<label for=''></label>-->
     <!--<input type="text" id='' autocomplete="" >-->
